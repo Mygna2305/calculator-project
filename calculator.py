@@ -23,7 +23,11 @@ def power(a, b):
     return a ** b
 
 
-OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "^": power}
+def modulus(a, b):
+    return a % b
+
+
+OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "^": power, "%": modulus}
 
 
 def calculate(a, op, b):
