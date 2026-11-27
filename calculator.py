@@ -19,11 +19,15 @@ def divide(a, b):
     return a / b
 
 
+def power(a, b):
+    return a ** b
+
+
 def modulus(a, b):
     return a % b
 
 
-OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "%": modulus}
+OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "^": power, "%": modulus}
 
 
 def calculate(a, op, b):
