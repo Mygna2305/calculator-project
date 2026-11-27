@@ -19,7 +19,11 @@ def divide(a, b):
     return a / b
 
 
-OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide}
+def modulus(a, b):
+    return a % b
+
+
+OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide, "%": modulus}
 
 
 def calculate(a, op, b):
